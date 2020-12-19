@@ -1,0 +1,37 @@
+{
+  "name": "note_taking_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.5.1",
+    "@material-ui/icons": "^4.5.1",
+    "moment": "^2.29.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-markdown": "^4.2.2",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run prettier"
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
